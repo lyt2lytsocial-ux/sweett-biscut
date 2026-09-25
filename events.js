@@ -4,8 +4,7 @@ window.SWEETT_BISCUT_EVENTS = [];
 window.SWEETT_BISCUT_EVENTS_READY = false;
 
 (() => {
-  const ICS_URL = "https://outlook.live.com/owa/calendar/00000000-0000-0000-0000-000000000000/ca3c9ce8-69fd-4c28-a628-81fa57859410/cid-5125C2BA5167C7E3/calendar.ics";
-
+  const ICS_URL = "/api/calendar";
   const unfold = text => text.replace(/\r?\n[ \t]/g, "");
   const unescapeIcs = value => String(value || "")
     .replace(/\\n/gi, "\n")
