@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><title>Sweett Biscut Calendar | Appearances</title><link rel="stylesheet" href="styles.css"></head>
+<body class="calendar-page">
+<header class="site-header"><a class="wordmark" href="index.html"><span>Sweett</span> Biscut</a><button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button><nav class="nav"><a href="index.html#about">About</a><a href="index.html#media">Media</a><a href="index.html#social">Social</a><a class="active" href="calendar.html">Calendar</a><a href="index.html#giving">Giving Back</a><a href="index.html#booking">Booking</a></nav></header>
+<main class="calendar-app section-shell">
+  <div class="calendar-hero"><div><p class="eyebrow">APPEARANCES</p><h1>Sweett Biscut Calendar</h1><p>Month view + upcoming dates in one place.</p></div><a class="btn orange" href="index.html">← Back to Home</a></div>
+  <div class="calendar-toolbar"><button id="prevMonth" aria-label="Previous month">‹</button><h2 id="monthLabel"></h2><button id="nextMonth" aria-label="Next month">›</button><button id="todayMonth" class="today-jump" type="button">Today</button></div>
+  <div class="calendar-weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div>
+  <div class="calendar-grid" id="calendarGrid"></div>
+  <section class="upcoming-list"><div class="section-title left"><p class="eyebrow">UPCOMING</p><h2>Next appearances</h2></div><div id="eventList" class="event-list"></div><div class="calendar-empty" id="calendarEmpty"><b>Calendar connection ready.</b><p>No Sweett Biscut event feed has been connected yet. Once the official ICS/Outlook source is confirmed, events can populate here instead of being manually duplicated.</p></div></section>
+</main>
+<div id="eventDetail" class="event-modal" hidden aria-modal="true" role="dialog" aria-label="Event details"><div class="event-modal-card"><button id="closeEventDetail" class="event-close" type="button" aria-label="Close event details">×</button><div id="eventDetailBody"></div></div></div>
+<nav class="mobile-float-nav" aria-label="Quick navigation"><a href="index.html"><span aria-hidden="true">⌂</span><b>Home</b></a><a class="is-current" href="calendar.html"><span aria-hidden="true">▣</span><b>Calendar</b></a><a href="social.html"><span aria-hidden="true">●</span><b>Social</b></a><a class="float-book" href="index.html#booking"><span aria-hidden="true">★</span><b>Book</b></a></nav>
+<footer><div><a class="wordmark foot" href="index.html"><span>Sweett</span> Biscut</a><p>Comedy with a Little Bite!</p></div><small>© 2026 Sweett Biscut.</small></footer>
+<script src="script.js"></script><script src="events.js"></script><script src="calendar.js"></script></body></html>
